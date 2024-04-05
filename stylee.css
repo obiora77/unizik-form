@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.952)0%,rgba(79, 13, 13, 0.387)50%), url(./OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    /* height: 100vh; */
+    }
+
+legend {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+    height: 99%;
+}
+input{
+    font-size: 16px;
+    padding: 3px;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+label{
+    display: inline-block;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.reg {
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin: 50px 0 0 40%;
+    background-color: rgb(138, 46, 13);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.conter {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.address {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.left {
+    flex: 0 0 45%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+/* Style for right-aligned div */
+.right {
+    flex: 0 0 45%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+ /* Clearfix for float elements */
+ .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
